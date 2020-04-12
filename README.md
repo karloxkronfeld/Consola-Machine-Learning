@@ -6,31 +6,23 @@ la consola de machine learning, son 6 algoritmos de regresion en aprendizaje sup
 
 ## Comenzando 
 
-Estas instrucciones te permitirán obtener una copia de la consola en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Estas instrucciones te permitirán obtener una copia de la consola funcionando en tu máquina local para propósitos de desarrollo y pruebas.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
-### Instalación 🔧
+### Requisitos 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+* [Pygame](https://www.pygame.org/wiki/GettingStarted)
+* [Scikit-Learn](https://scikit-learn.org/) 
+* [Numpy](https://numpy.org/) 
+* [Matplotlib](https://matplotlib.org/)
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_los datos son generados automaticamente, es posible ingresar nuevos datos usando las variables x,y_
+[](https://subefotos.com/ver/?6ddaf470f20050b217053662f6c33c5co.png)
+
 
 ### Analice las pruebas end-to-end 🔩
 
