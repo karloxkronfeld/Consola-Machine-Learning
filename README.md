@@ -10,6 +10,7 @@ La consola de machine learning, son 6 algoritmos de regresion en aprendizaje sup
 Estas instrucciones te permitirán obtener una copia de la consola funcionando en tu máquina local para propósitos de desarrollo y pruebas.
 Mira **Deployment** para conocer como desplegar el proyecto.
 
+
 ### Requisitos 
 
 * [Pygame](https://www.pygame.org/wiki/GettingStarted)
@@ -20,7 +21,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ## Ejecutando las pruebas 
 
-Los datos son generados automaticamente y tambien, es posible modificar el origen de los datos usando las variables x,y_
+Los datos son generados automaticamente, tambien, es posible modificar el origen de los datos usando las variables x,y
 ![](https://user-images.githubusercontent.com/63472277/79079398-68b7ac00-7cd4-11ea-8d42-be699029968f.png)
 ```
 from sklearn import datasets
@@ -43,7 +44,7 @@ R2, Mean absolute error(MAE), Mean Square Error (MSA),...
 Estas pruebas sirven para identificar la naturaleza de los datos y fortalercer el analisis de datos.
 
 ## Despliegue 
-Teniendo los requisitos de software, simplemente correr el programa en uno de los editores de python.
+Teniendo los requisitos de software, simplemente correr el programa con uno de los editores de python.
 
 ---
 [KarloxKronfeld](https://github.com/karloxkronfeld) 
