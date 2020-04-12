@@ -2,7 +2,7 @@
 
 la consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado en una una interfaz de videojuegos.
 
-![](https://media.giphy.com/media/dWNXUH0y1X0Behnx6H/giphy.gif)
+![sdfsad](https://media.giphy.com/media/dWNXUH0y1X0Behnx6H/giphy.gif)
 
 ## Comenzando 
 
