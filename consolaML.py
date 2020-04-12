@@ -44,33 +44,33 @@ class ICONOS():
         posx,posy,separar=20,40,80
         self.fondo=(255,255,255)
         
-        self.icon_lineal=cargar_iconos(posx,posy,"linicon.png")[0]
+        self.icon_lineal=cargar_iconos(posx,posy,"image/linicon.png")[0]
         self.rect_lineal=cargar_iconos(posx,posy,"linicon.png")[1]
         #modelo polinomial
-        self.icon_poli=cargar_iconos(posx,posy+separar,"policon.png")[0]
-        self.rect_poli=cargar_iconos(posx,posy+separar,"policon.png")[1]
+        self.icon_poli=cargar_iconos(posx,posy+separar,"image/policon.png")[0]
+        self.rect_poli=cargar_iconos(posx,posy+separar,"image/policon.png")[1]
         #modelo vectores de soporte
-        self.icon_vector=cargar_iconos(posx,posy+2*separar,"vectoricon.png")[0]
-        self.rect_vector=cargar_iconos(posx,posy+2*separar,"vectoricon.png")[1]
+        self.icon_vector=cargar_iconos(posx,posy+2*separar,"image/vectoricon.png")[0]
+        self.rect_vector=cargar_iconos(posx,posy+2*separar,"image/vectoricon.png")[1]
         #modelo arboles de decision
-        self.icon_arbol=cargar_iconos(posx,posy+3*separar,"arbolicon.png")[0]
-        self.rect_arbol=cargar_iconos(posx,posy+3*separar,"arbolicon.png")[1]
+        self.icon_arbol=cargar_iconos(posx,posy+3*separar,"image/arbolicon.png")[0]
+        self.rect_arbol=cargar_iconos(posx,posy+3*separar,"image/arbolicon.png")[1]
         #modelo bosques aleatorios
-        self.icon_bosque=cargar_iconos(posx,posy+4*separar,"bosqueicon.png")[0]
-        self.rect_bosque=cargar_iconos(posx,posy+4*separar,"bosqueicon.png")[1]
+        self.icon_bosque=cargar_iconos(posx,posy+4*separar,"image/bosqueicon.png")[0]
+        self.rect_bosque=cargar_iconos(posx,posy+4*separar,"image/bosqueicon.png")[1]
         #Redes elasticas
-        self.icon_elastic=cargar_iconos(posx,posy+5*separar,"elasticon.png")[0]
-        self.rect_elastic=cargar_iconos(posx,posy+5*separar,"elasticon.png")[1]
+        self.icon_elastic=cargar_iconos(posx,posy+5*separar,"image/elasticon.png")[0]
+        self.rect_elastic=cargar_iconos(posx,posy+5*separar,"image/elasticon.png")[1]
                        #PARAMETROS
         #aumentar grado(polinomio)
-        self.icon_gradomas=cargar_iconos_grado(5*posx,posy+separar,"gradicon.png")[0]
-        self.rect_gradomas=cargar_iconos_grado(5*posx,posy+separar,"gradicon.png")[1]
+        self.icon_gradomas=cargar_iconos_grado(5*posx,posy+separar,"image/gradicon.png")[0]
+        self.rect_gradomas=cargar_iconos_grado(5*posx,posy+separar,"image/gradicon.png")[1]
         #disminuir grado(polinomio)
-        self.icon_gradomenos=cargar_iconos_grado(5*posx,posy+2*separar,"gradicon2.png")[0]
-        self.rect_gradomenos=cargar_iconos_grado(5*posx,posy+1.4*separar,"gradicon2.png")[1]
+        self.icon_gradomenos=cargar_iconos_grado(5*posx,posy+2*separar,"image/gradicon2.png")[0]
+        self.rect_gradomenos=cargar_iconos_grado(5*posx,posy+1.4*separar,"image/gradicon2.png")[1]
         #modificar kernel
-        self.icon_kernel=cargar_iconos(5*posx,posy+2*separar,"kernelicon.png")[0]
-        self.rect_kernel=cargar_iconos(5*posx,posy+2*separar,"kernelicon.png")[1]
+        self.icon_kernel=cargar_iconos(5*posx,posy+2*separar,"image/kernelicon.png")[0]
+        self.rect_kernel=cargar_iconos(5*posx,posy+2*separar,"image/kernelicon.png")[1]
 
         
         self.lista_modelos=[]        
