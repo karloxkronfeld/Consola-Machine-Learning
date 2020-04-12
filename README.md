@@ -1,6 +1,6 @@
 # Consola-Machine-Learning
 
-La consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado en una una interfaz de videojuegos.
+La consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado, usando una interfaz de videojuegos.
 
 ![](https://media.giphy.com/media/dWNXUH0y1X0Behnx6H/giphy.gif)
 
@@ -40,16 +40,13 @@ Lineal,Polinomial,Arboles de decision, Bosques...
 ```
 R2, Mean absolute error(MAE), Mean Square Error (MSA),...
 ```
-
 ### las pruebas de estilo de codificación 
 
 Estas pruebas sirven para identificar la naturaleza de los datos y fortalercer el analisis de datos.
 
-## Despliegue 📦
+## Despliegue 
 Teniendo los requisitos de software, simplemente correr el programa en uno de los editores de python.
 
-
 ---
-⌨️ [karloxsl](https://github.com/karloxkronfeld) 
+[KarloxKronfeld](https://github.com/karloxkronfeld) 
 ---
-
