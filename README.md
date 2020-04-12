@@ -2,7 +2,7 @@
 
 la consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado en una una interfaz de videojuegos.
 
-[](https://subefotos.com/ver/?6ddaf470f20050b217053662f6c33c5co.png)
+![](https://media.giphy.com/media/dWNXUH0y1X0Behnx6H/giphy.gif)
 
 
 ## Comenzando 
@@ -22,7 +22,8 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 ## Ejecutando las pruebas ⚙️
 
 _los datos son generados automaticamente, es posible ingresar nuevos datos usando las variables x,y_
-![](https://subefotos.com/ver/?6ddaf470f20050b217053662f6c33c5co.png)
+
+[](http://s2.subirimagenes.com/imagen/previo/thump_9921525xy.png)
 
 
 ### Analice las pruebas end-to-end 🔩
