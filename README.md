@@ -44,6 +44,7 @@ Estas pruebas sirven para identificar la naturaleza de los datos y fortalercer e
 
 ## Despliegue 
 Teniendo los requisitos de software, simplemente correr el programa en uno de los editores de python.
+
 ---
 [KarloxKronfeld](https://github.com/karloxkronfeld) 
 ---
