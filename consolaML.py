@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 22 12:38:14 2019
+Created on Fri Nov 29 12:38:14 2019
 
 @author: Carlos
 """
 
 import pygame
 import numpy as np
-#import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_agg as agg
 from sklearn.model_selection import train_test_split as tts
@@ -17,9 +16,6 @@ from sklearn.svm import SVR #support vector machine
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor 
 from sklearn import metrics
-
-
-
 
 
 def datos(beta, muestras, desviacion):    
@@ -36,7 +32,6 @@ n = 500
 x, y = datos(beta, n, desviacion)
 
 
-
 class ICONOS():
     
     def __init__(self):
@@ -44,40 +39,39 @@ class ICONOS():
         posx,posy,separar=20,40,80
         self.fondo=(255,255,255)
         
-        self.icon_lineal=cargar_iconos(posx,posy,"image/linicon.png")[0]
-        self.rect_lineal=cargar_iconos(posx,posy,"linicon.png")[1]
+        self.icon_lineal=cargar_iconos(posx,posy,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/linicon.png")[0]
+        self.rect_lineal=cargar_iconos(posx,posy,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/linicon.png")[1]
         #modelo polinomial
-        self.icon_poli=cargar_iconos(posx,posy+separar,"image/policon.png")[0]
-        self.rect_poli=cargar_iconos(posx,posy+separar,"image/policon.png")[1]
+        self.icon_poli=cargar_iconos(posx,posy+separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/policon.png")[0]
+        self.rect_poli=cargar_iconos(posx,posy+separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/policon.png")[1]
         #modelo vectores de soporte
-        self.icon_vector=cargar_iconos(posx,posy+2*separar,"image/vectoricon.png")[0]
-        self.rect_vector=cargar_iconos(posx,posy+2*separar,"image/vectoricon.png")[1]
+        self.icon_vector=cargar_iconos(posx,posy+2*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/vectoricon.png")[0]
+        self.rect_vector=cargar_iconos(posx,posy+2*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/vectoricon.png")[1]
         #modelo arboles de decision
-        self.icon_arbol=cargar_iconos(posx,posy+3*separar,"image/arbolicon.png")[0]
-        self.rect_arbol=cargar_iconos(posx,posy+3*separar,"image/arbolicon.png")[1]
+        self.icon_arbol=cargar_iconos(posx,posy+3*separar,"image/https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/arbolicon.png")[0]
+        self.rect_arbol=cargar_iconos(posx,posy+3*separar,"image/https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/arbolicon.png")[1]
         #modelo bosques aleatorios
-        self.icon_bosque=cargar_iconos(posx,posy+4*separar,"image/bosqueicon.png")[0]
-        self.rect_bosque=cargar_iconos(posx,posy+4*separar,"image/bosqueicon.png")[1]
+        self.icon_bosque=cargar_iconos(posx,posy+4*separar,"image/https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/bosqueicon.png")[0]
+        self.rect_bosque=cargar_iconos(posx,posy+4*separar,"image/https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/bosqueicon.png")[1]
         #Redes elasticas
-        self.icon_elastic=cargar_iconos(posx,posy+5*separar,"image/elasticon.png")[0]
-        self.rect_elastic=cargar_iconos(posx,posy+5*separar,"image/elasticon.png")[1]
+        self.icon_elastic=cargar_iconos(posx,posy+5*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/elasticon.png")[0]
+        self.rect_elastic=cargar_iconos(posx,posy+5*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/elasticon.png")[1]
                        #PARAMETROS
         #aumentar grado(polinomio)
-        self.icon_gradomas=cargar_iconos_grado(5*posx,posy+separar,"image/gradicon.png")[0]
-        self.rect_gradomas=cargar_iconos_grado(5*posx,posy+separar,"image/gradicon.png")[1]
+        self.icon_gradomas=cargar_iconos_grado(5*posx,posy+separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/gradicon.png")[0]
+        self.rect_gradomas=cargar_iconos_grado(5*posx,posy+separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/gradicon.png")[1]
         #disminuir grado(polinomio)
-        self.icon_gradomenos=cargar_iconos_grado(5*posx,posy+2*separar,"image/gradicon2.png")[0]
-        self.rect_gradomenos=cargar_iconos_grado(5*posx,posy+1.4*separar,"image/gradicon2.png")[1]
+        self.icon_gradomenos=cargar_iconos_grado(5*posx,posy+2*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/gradicon2.png")[0]
+        self.rect_gradomenos=cargar_iconos_grado(5*posx,posy+1.4*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/gradicon2.png")[1]
         #modificar kernel
-        self.icon_kernel=cargar_iconos(5*posx,posy+2*separar,"image/kernelicon.png")[0]
-        self.rect_kernel=cargar_iconos(5*posx,posy+2*separar,"image/kernelicon.png")[1]
-
+        self.icon_kernel=cargar_iconos(5*posx,posy+2*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/kernelicon.png")[0]
+        self.rect_kernel=cargar_iconos(5*posx,posy+2*separar,"https://github.com/karloxkronfeld/Consola-Machine-Learning/blob/master/imag/kernelicon.png")[1]
         
         self.lista_modelos=[]        
         
     def click(self,modelo): 
         self.lista_modelos.append(modelo)       
-#               
+              
     def dibujar(self,superficie):
         posx,posy,separar=20,40,80
        
@@ -95,7 +89,6 @@ class ICONOS():
     def parametros_vector(self,superficie):
         posx,posy,separar=20,40,80
         superficie.blit(self.icon_kernel,(5*posx,posy+2*separar))
-
 
 class LINEAL():
     def __init__(self):
@@ -117,7 +110,6 @@ class LINEAL():
         rect_metricas(superficie)        
         superficie.blit(self.texto_metricas,(440,400))
 
-
 class POLINOMIAL():
     def __init__(self,grado=1):          
         x_train,x_test,y_train,y_test =tts(x,y, test_size=0.2)
@@ -134,7 +126,6 @@ class POLINOMIAL():
         yy=poli.intercept_+ sum(coef)
        
         self.imagen , self.rect=Formatopoli(x_test,y_test,x_train,y_train,Y_pre_poli,xx,yy)   
-#        self.imagen , self.rect=Formato(x_test,y_test,x_train,y_train,Y_pre_poli)   
         metricas=Metricas(y_test,Y_pre_poli)     
         self.texto_grafica=fuentegrande().render("MODELO POLINOMIAL",0,(0,0,0))        
         self.texto_metricas=fuentepeque().render("Metricas:"+metricas,0,(0,0,0))
@@ -410,10 +401,3 @@ def Consola():
        clock.tick(30)
 Consola()       
 pygame.quit()
-
-
-
-
-
-
-
