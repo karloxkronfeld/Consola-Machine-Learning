@@ -8,7 +8,7 @@ La consola de machine learning, son 6 algoritmos de regresion en aprendizaje sup
 ## Comenzando 
 
 Estas instrucciones te permitirán obtener una copia de la consola funcionando en tu máquina local para propósitos de desarrollo y pruebas.
-Mira **Deployment** para conocer como desplegar el proyecto.
+Mira **Despliegue** para conocer como desplegar el proyecto.
 
 
 ### Requisitos 
