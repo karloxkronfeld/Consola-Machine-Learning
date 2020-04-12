@@ -20,7 +20,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ## Ejecutando las pruebas 
 
-los datos son generados automaticamente y tambien, es posible modificar el origen de los datos usando las variables x,y_
+Los datos son generados automaticamente y tambien, es posible modificar el origen de los datos usando las variables x,y_
 ![](https://user-images.githubusercontent.com/63472277/79079398-68b7ac00-7cd4-11ea-8d42-be699029968f.png)
 ```
 from sklearn import datasets
@@ -40,13 +40,10 @@ Lineal,Polinomial,Arboles de decision, Bosques...
 ```
 R2, Mean absolute error(MAE), Mean Square Error (MSA),...
 ```
-### las pruebas de estilo de codificación 
-
 Estas pruebas sirven para identificar la naturaleza de los datos y fortalercer el analisis de datos.
 
 ## Despliegue 
 Teniendo los requisitos de software, simplemente correr el programa en uno de los editores de python.
-
 ---
 [KarloxKronfeld](https://github.com/karloxkronfeld) 
 ---
