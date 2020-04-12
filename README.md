@@ -1,10 +1,12 @@
 # Consola-Machine-Learning
 
-_la consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado.
+la consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado en una una interfaz de videojuegos.
+
+![](https://gph.is/g/ZWw8PX6)
 
 ## Comenzando 
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Estas instrucciones te permitirán obtener una copia de la consola en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
@@ -42,7 +44,7 @@ Da un ejemplo
 
 _Explica que verifican estas pruebas y por qué_
 
-```
+
 Da un ejemplo
 ```
 
