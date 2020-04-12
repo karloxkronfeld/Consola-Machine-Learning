@@ -23,7 +23,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 _los datos son generados automaticamente, es posible ingresar nuevos datos usando las variables x,y_
 
-[](https://thumbs.subefotos.com/6ddaf470f20050b217053662f6c33c5co.jpg)
+[](https://fotos.subefotos.com/6ddaf470f20050b217053662f6c33c5co.png)
 
 
 ### Analice las pruebas end-to-end 🔩
