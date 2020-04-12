@@ -1,6 +1,6 @@
 # Consola-Machine-Learning
 
-la consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado en una una interfaz de videojuegos.
+La consola de machine learning, son 6 algoritmos de regresion en aprendizaje supervisado en una una interfaz de videojuegos.
 
 ![](https://media.giphy.com/media/dWNXUH0y1X0Behnx6H/giphy.gif)
 
@@ -8,7 +8,6 @@ la consola de machine learning, son 6 algoritmos de regresion en aprendizaje sup
 ## Comenzando 
 
 Estas instrucciones te permitirán obtener una copia de la consola funcionando en tu máquina local para propósitos de desarrollo y pruebas.
-
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Requisitos 🔧
@@ -21,37 +20,35 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ## Ejecutando las pruebas ⚙️
 
-_los datos son generados automaticamente, es posible ingresar nuevos datos usando las variables x,y_
-
-[](https://fotos.subefotos.com/6ddaf470f20050b217053662f6c33c5co.png)
-
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
+los datos son generados automaticamente y tambien, es posible modificar el origen de los datos usando las variables x,y_
+![](https://user-images.githubusercontent.com/63472277/79079398-68b7ac00-7cd4-11ea-8d42-be699029968f.png)
 ```
-Da un ejemplo
+from sklearn import datasets
+boston= datasets.load_boston()
+x=boston.data[:,np.newaxis,5]
+y=boston.target
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+### Analiza las pruebas 🔩
 
-_Explica que verifican estas pruebas y por qué_
+Cada interaccion da como resultado una nueva interpretacion de los datos basada en un modelo de machine learning, con sus respectivas metricas
 
-
-Da un ejemplo
 ```
+Lineal,Polinomial,Arboles de decision, Bosques...
+```
+
+```
+R2, Mean absolute error(MAE), Mean Square Error (MSA),...
+```
+
+### las pruebas de estilo de codificación ⌨️
+
+_Estas pruebas sirven para identificar la naturaleza de los datos y fortalercer el analisis de datos.
 
 ## Despliegue 📦
+Teniendo los requisitos de software es correr el programa en uno de los editores de python.
 
-_Agrega notas adicionales sobre como hacer deploy_
 
-## Construido con 🛠️
-
-* [Pygame](https://www.pygame.org/docs/) - Modulo para diseñar videojuegos
-* [Scikit-Learn](https://scikit-learn.org/) - limpieza de datos y Algoritmos de machine learning 
-* [Numpy](https://numpy.org/) - Limpieza de datos
-* [Matplotlib](https://matplotlib.org/) - Usado para generar graficos
 ---
 ---
 ⌨️ [karloxsl](https://github.com/karloxkronfeld) 
