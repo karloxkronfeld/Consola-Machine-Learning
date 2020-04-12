@@ -1,7 +1,5 @@
 # Consola-Machine-Learning
 
-# Título del Proyecto
-
 _Una consola que permite, usar algoritmos de machine learning._
 
 ## Comenzando 🚀
